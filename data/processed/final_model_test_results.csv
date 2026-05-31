@@ -1,0 +1,2 @@
+model,feature_set,accuracy,precision,recall,f1,roc_auc,avg_actual_podiums_found_per_race
+Tuned Gradient Boosting,driver_history,0.8991905813097866,0.710691823899371,0.553921568627451,0.6225895316804407,0.9364166878872761,1.9264705882352942
