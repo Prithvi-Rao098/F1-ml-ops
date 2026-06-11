@@ -1,5 +1,6 @@
 model,best_cv_roc_auc,best_params
-KNN,0.9048845532279817,"{'kneighborsclassifier__n_neighbors': 35, 'kneighborsclassifier__weights': 'distance'}"
-Decision Tree,0.9007209619004379,"{'max_depth': 5, 'min_samples_leaf': 25}"
-Random Forest,0.922972944309012,"{'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 10, 'n_estimators': 200}"
-Gradient Boosting,0.9211489643218117,"{'learning_rate': 0.05, 'max_depth': 2, 'n_estimators': 100}"
+KNN,0.9056680657919779,"{'kneighborsclassifier__n_neighbors': 35, 'kneighborsclassifier__weights': 'distance'}"
+Decision Tree,0.9062062738416206,"{'max_depth': 5, 'min_samples_leaf': 25}"
+Random Forest,0.9247306586466169,"{'max_depth': 8, 'max_features': 'sqrt', 'min_samples_leaf': 10, 'n_estimators': 200}"
+Gradient Boosting,0.9238725651309286,"{'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 200}"
+Elastic Net Logistic Regression,0.9202637963352334,"{'logisticregression__C': 0.01, 'logisticregression__l1_ratio': 0.1}"
